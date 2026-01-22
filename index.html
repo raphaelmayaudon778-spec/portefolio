@@ -1,2 +1,159 @@
-mon premier fichier html pour git
-voici ma 2eme ligne 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BTS SIO SISR</title>
+     <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Mayaudon Raphael</h1>
+        <p>BTS SIO - Spécialité SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</p>
+    </header>
+
+    <div class="container">
+       
+        <nav>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about" class="section">
+            <h2>À propos</h2>
+            <div class="about-content">
+                <div>
+                    <div class="profile-img">👨‍💻</div>
+                </div>
+                <div>
+                    <p style="font-size: 1.1rem; line-height: 1.8;">
+                        Étudiant en BTS SIO option SISR, passionné par les infrastructures réseau et l'administration systèmes. 
+                        Je développe mes compétences en configuration de serveurs, sécurité réseau, et virtualisation.
+                    </p>
+                    <p style="margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
+                        Mon objectif est de concevoir et maintenir des infrastructures informatiques performantes et sécurisées.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>🌐 Réseaux</h3>
+                    <ul>
+                        <li>Configuration routeurs/switchs</li>
+                        <li>IP, VLAN, VPN</li>
+                        <li>Cisco, Packet Tracer</li>
+                        <li>Protocoles réseau</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>🖥️ Systèmes</h3>
+                    <ul>
+                        <li>Windows Server</li>
+                        <li>Linux (Debian, Ubuntu)</li>
+                        <li>Active Directory</li>
+                        <li>Virtualisation (VirtualBox)</li>
+                        <li>base de donnée (mysql)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>🔒 Sécurité</h3>
+                    <ul>
+                        <li>Pare-feu</li>
+                        <li>Chiffrement et VPN</li>
+                        <li>Sauvegardes et restauration</li>
+                        <li>Supervision réseau</li>
+                        <li>création de plusieurs utilisateurs avec différents niveaux d'accès</li> 
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>💻 Développement</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>HTML/PHP/CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projets & Réalisations</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Infrastructure Réseau d'Entreprise</h3>
+                    <p>Conception et mise en place d'une infrastructure réseau avec segmentation VLAN, serveur DHCP/DNS.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Windows Server</span>
+                        <span class="tech-tag">Active Directory</span>
+                        <span class="tech-tag">VLAN</span>
+                        <span class="tech-tag">Cisco</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Serveur Web Sécurisé</h3>
+                    <p>Déploiement d'un serveur web Linux avec Apache.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Apache</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Solution de Virtualisation</h3>
+                    <p>Mise en œuvre d'une plateforme de virtualisation pour optimiser les ressources serveur et faciliter le déploiement de nouveaux services.</p>
+                    <div class="tech-tags"></div>
+                        <span class="tech-tag">Virtualisation</span>
+                    </div>
+                </div>
+
+               <!---- <div class="project-card"> 
+                    <h3>Supervision Réseau</h3>
+                    <p>Installation et configuration d'outils de monitoring pour surveiller l'état du réseau, des serveurs et générer des alertes en cas d'incident.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag"></span> 
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>📧 Email</h3>
+                    <p>raphaelmayaudon778@gmail.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>📱 Téléphone</h3>
+                    <p>07 83 80 17 43</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>💼 LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com" target="_blank" style="color: white; text-decoration: underline;">linkedin.com</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>🐙 GitHub</h3>
+                    <p><a href="https://github.com" target="_blank" style="color: white; text-decoration: underline;">github.com</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - Portfolio BTS SIO SISR | Tous droits réservés</p>
+    </footer>
+</body>
+</html>
